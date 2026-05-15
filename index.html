@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page Down</title>
+  <style>
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #f0f2f5;
+      font-family: sans-serif;
+      color: #333;
+    }
+
+    .container {
+      text-align: center;
+      padding: 3rem 2rem;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+      max-width: 480px;
+      width: 90%;
+    }
+
+    .status-icon {
+      font-size: 4rem;
+      margin-bottom: 1.5rem;
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 0.75rem;
+      color: #2b84c0;
+    }
+
+    p {
+      font-size: 1rem;
+      line-height: 1.6;
+      color: #555;
+    }
+
+    .note {
+      margin-top: 1.5rem;
+      font-size: 0.875rem;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!--div class="status-icon">⚠️</div -->
+    <h1>Page is down<br>
+        Important Notice</h1>
+    <p>Jammertest.no has been taken down because it has been hacked.</p>
+    <p>Someone has installed a fake re:captcha pop-up on our web server which asks you to enter a command in to the terminal.</p>
+    <b><p>If you have followed any instruction from this pop-up. Shut down your computer and contact your IT department immediately.</p></b>
+    
+    <p class="note">Please check back later. We are very sorry for the inconvenience.</p>
+  </div>
+</body>
+</html>
